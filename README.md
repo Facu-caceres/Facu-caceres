@@ -47,10 +47,8 @@
 
 ###
 
-<div align="center">
-  <a href="https://open.spotify.com/user/caceresfacundo.o">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=caceresfacundo.o&count=5&unique=false" alt="Spotify recently played"  />
-  </a>
+&nbsp;<div align="center">
+  [![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/omnitenebris)
 </div>
 
 ###
