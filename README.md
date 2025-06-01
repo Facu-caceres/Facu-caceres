@@ -46,6 +46,9 @@
   <a href="https://www.linkedin.com/in/facundo-caceres-b92866237/" target="_blank">
      <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
+  <a href="https://csfloat.com/stall/76561198840263874" target="_blank">
+     <img src="https://imgs.search.brave.com/NZ7QqsbD7g1ivKoW2ceQ8mnfnqOR-ajVso9chQZbws4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3Nnb3NraW5zLmdn/L3B1YmxpYy91aWgv/bWFya2V0cy9hSFIw/Y0hNNkx5OWpjMmR2/YzJ0cGJuTXVaMmN2/WW5WcGJHUXZZWE56/WlhSekwzSmxZM1Jo/Ym1kc1pTMUNkVlpQ/V0d0eFZTNXdibWMt/LzUwMC9hdXRvLzg1/L25vdHJpbS8wNDdj/ODAwMzgyM2Y0YjNj/MjgwOWY2OTM5ZWMx/ODkzYi5wbmc" height="35" alt="CsFloat logo"  />
+  </a>
  
 </div>
 
