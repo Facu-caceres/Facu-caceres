@@ -2,7 +2,7 @@ name: Generate Contribution Animations
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Se ejecuta todos los días a medianoche
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -12,11 +12,15 @@ jobs:
       contents: write
 
     steps:
+
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: facu-caceres
+
           outputs: dist/snake.svg
+
+
       - name: Generate Pacman Animation
         uses: Platane/snk@v3
         with:
@@ -27,6 +31,7 @@ jobs:
             dist/pacman-dark.svg
           theme: pacman
           dark_theme: pacman-dark
+
 
       - name: Push generated files to output branch
         uses: crazy-max/ghaction-github-pages@v4
