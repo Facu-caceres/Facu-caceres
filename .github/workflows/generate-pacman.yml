@@ -2,15 +2,14 @@ name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Se ejecuta todos los días a medianoche UTC
-  workflow_dispatch:      # Permite ejecutarlo manualmente desde GitHub Actions
+    - cron: "0 0 * * *"  
+  workflow_dispatch:     
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    # Es una buena práctica definir los permisos que necesitará el job
     permissions: 
-      contents: write # Necesario para hacer push a la rama 'output'
+      contents: write
 
     steps:
       - name: Generate contribution snake
@@ -28,6 +27,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          # La variable de entorno debe estar dentro del 'with' del mismo paso
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
