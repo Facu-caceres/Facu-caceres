@@ -65,15 +65,3 @@
 </div>
 
 ###
-
-<img src="https://raw.githubusercontent.com/facu-caceres/facu-caceres/output/snake.svg" alt="Snake animation" />
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/facu-caceres/facu-caceres/output/pacman-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/facu-caceres/facu-caceres/output/pacman.svg">
-  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/facu-caceres/facu-caceres/output/pacman.svg">
-</picture>
-
-###
